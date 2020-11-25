@@ -1,0 +1,8 @@
+---
+- hosts: local
+  vars_files: 
+    - "roles/ansible-role-rh-base/vars/charlie.yml"
+    - "roles/ansible-role-postgresql/vars/charlie.yml"
+  roles:
+    - role: "roles/ansible-role-rh-base"
+    - role: "roles/ansible-role-postgresql"

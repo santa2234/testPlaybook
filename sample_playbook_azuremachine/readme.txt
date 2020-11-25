@@ -1,0 +1,2 @@
+Dit is een file die onder /etc moet staat en is een voorbeeld van een ansible playbook die local op de machine zal draaien zonder vagrant. De aangepaste rol van mezelf (santi)
+werkt volledig. De rol van postgresql zal ik nog moeten herbekijken deze geeft nog een error. Groetjes x.
